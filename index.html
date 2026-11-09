@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>JoyaGoo spreadsheet | Productlinks, maten en QC-foto’s</title>
+  <meta name="description" content="Gebruik de JoyaGoo spreadsheet-gids om schoenen, kleding en accessoires te vergelijken. Controleer productlinks, maten, QC-foto’s en verzendopties.">
+  <style>
+    :root{color-scheme:light;--ink:#142439;--deep:#142439;--paper:#f5f7fa;--white:#fff;--muted:#48586b;--line:#d6dee9;--peach:#ffb69e}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.62 system-ui,-apple-system,"Segoe UI",sans-serif}
+    h1,h2,h3,p,figure{margin:0}
+    h1,h2,h3{line-height:1.12}
+    h1{max-width:10ch;font-size:clamp(2.65rem,7.5vw,6.4rem);letter-spacing:-.07em;overflow-wrap:anywhere}
+    h2{font-size:clamp(1.65rem,4vw,2.85rem);letter-spacing:-.04em}
+    h3{font-size:1.17rem}
+    a{color:inherit;text-underline-offset:.2em}
+    a:focus-visible,summary:focus-visible{outline:3px solid #bc4c2e;outline-offset:4px}
+    img{display:block;width:100%;height:auto;background:#e9edf3}
+    .shell{width:min(73rem,calc(100% - 2rem));margin-inline:auto}
+    .mast,.footer{background:var(--deep);color:var(--white)}
+    .bar{display:flex;align-items:center;justify-content:space-between;gap:.75rem;padding-block:.9rem;border-bottom:1px solid #51627a}
+    .wordmark{font-weight:750;text-decoration:none}
+    .label{font-size:.76rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+    .mast .label{color:var(--peach)}
+    .hero{display:grid;grid-template-columns:1.25fr 1fr;align-items:center;gap:clamp(1rem,5vw,4.5rem);padding-block:clamp(2rem,6vw,5rem)}
+    .hero p:not(.label){max-width:45ch;color:#e0e8f4;margin-top:1rem}
+    .hero h1{margin-top:.5rem}
+    .hero figure{background:#e9edf3;color:var(--ink);border:1px solid #e9edf3}
+    .hero img{aspect-ratio:4/3;object-fit:contain}
+    figcaption{padding:.55rem .8rem;font-size:.85rem;font-weight:650}
+    .category{background:var(--peach);padding-block:1.25rem 1.55rem}
+    .category h2{font-size:1.35rem;margin-bottom:.75rem}
+    .catgrid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid #a66b5c;border-left:1px solid #a66b5c}
+    .catgrid li{display:flex;border-bottom:1px solid #a66b5c;border-right:1px solid #a66b5c}
+    .catgrid a{display:flex;align-items:center;justify-content:space-between;gap:.35rem;width:100%;padding:.65rem .7rem;font-size:.92rem;font-weight:700;text-decoration:none}
+    .catgrid a:hover{background:#ffd8cb;text-decoration:underline}
+    .content{padding-block:2.75rem}
+    .content>section+section{margin-top:clamp(2.8rem,7vw,5rem)}
+    .intro{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.5fr);gap:1rem 3rem;align-items:start}
+    .intro p{max-width:64ch}
+    .spread{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1.4rem 2rem;margin-top:1rem}
+    article{border-top:2px solid var(--ink);padding-top:1rem}
+    article p,.note{margin-top:.65rem}
+    .photo-set{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.75rem;margin-top:1rem}
+    .photo-set figure{background:var(--white);border:1px solid var(--line)}
+    .photo-set img{aspect-ratio:1;object-fit:contain}
+    .note{color:var(--muted);max-width:69ch}
+    .faq{margin-top:1rem;border-top:1px solid var(--line)}
+    details{border-bottom:1px solid var(--line);padding:.8rem 0}
+    summary{font-weight:750;cursor:pointer}
+    details p{max-width:68ch;padding-top:.45rem}
+    .footer .shell{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.75rem;padding-block:1.35rem}
+    .cta{display:inline-block;background:var(--peach);color:var(--ink);padding:.62rem .9rem;font-weight:750;text-decoration:none}
+    .cta:hover{text-decoration:underline}
+    @media(max-width:58rem){.catgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+    @media(max-width:38rem){.hero,.intro,.spread{grid-template-columns:1fr}.hero figure{max-width:28rem}.catgrid,.photo-set{grid-template-columns:repeat(2,minmax(0,1fr))}.bar .label{display:none}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "inLanguage":"nl",
+    "name":"JoyaGoo spreadsheet | Productlinks, maten en QC-foto’s",
+    "mainEntity":[
+      {
+        "@type":"Question",
+        "name":"Wat is een JoyaGoo spreadsheet?",
+        "acceptedAnswer":{"@type":"Answer","text":"Een JoyaGoo spreadsheet is een overzicht waarin shoppers productlinks verzamelen en vergelijken. Deze onafhankelijke gids helpt je categorieën op HipobuyFind te vinden en details bij de aanbieder te controleren."}
+      },
+      {
+        "@type":"Question",
+        "name":"Wat doe ik met een verlopen productlink?",
+        "acceptedAnswer":{"@type":"Answer","text":"Zoek in dezelfde categorie op modelnaam of artikelnummer. Vergelijk daarna het model, de kleurvariant en de maatopties met je oorspronkelijke notitie."}
+      },
+      {
+        "@type":"Question",
+        "name":"Wat kan ik zien op QC-foto’s?",
+        "acceptedAnswer":{"@type":"Answer","text":"Duidelijke foto’s tonen zichtbare details zoals stiknaden, labels, sluitingen en beschadigingen. Voor de afmetingen heb je een meetfoto nodig. Vraag voor de herkomst om aankoopdocumentatie."}
+      },
+      {
+        "@type":"Question",
+        "name":"Hoe schat ik de verzendkosten naar Nederland of België?",
+        "acceptedAnswer":{"@type":"Answer","text":"Vraag het verpakte gewicht en de afmetingen op. Vergelijk voor jouw afleverland de verzendopties, tracking, verzekering en eventuele bijkomende kosten voordat je betaalt."}
+      }
+    ]
+  }
+  </script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/bxbns/">
+</head>
+<body>
+  <!-- Redactioneel onderzoek: de Google-resultatenpagina was niet rechtstreeks toegankelijk. De inhoud is gebaseerd op tien toegankelijke zoekresultaten voor dezelfde zoekterm; de volgorde is niet als Google-top 10 geverifieerd. -->
+  <header class="mast">
+    <div class="shell bar">
+      <a class="wordmark" href="https://www.hipobuyfind.com">www.hipobuyfind.com</a>
+      <span class="label">Onafhankelijke koopgids</span>
+    </div>
+    <div class="shell hero">
+      <div>
+        <p class="label">Schoenen · Kleding · Accessoires</p>
+        <h1>JoyaGoo spreadsheet</h1>
+        <p>Vind de juiste categorie, vergelijk je maat en controleer welke uitvoering er achter een productlink zit. Zo kun je snel beslissen welke vondsten je verder wilt bekijken.</p>
+      </div>
+      <figure>
+        <img src="https://momentumshop.ca/cdn/shop/files/AURORA_CW2288-111_PHSLH000-2000_5000x.jpg?v=1690568884&amp;width=720" alt="Witte Nike Air Force 1 ’07, van opzij gefotografeerd" width="640" height="480" fetchpriority="high" loading="eager" decoding="async">
+        <figcaption>Beeldreferentie · Nike Air Force 1 ’07</figcaption>
+      </figure>
+    </div>
+  </header>
+
+  <nav class="category" aria-labelledby="categories">
+    <div class="shell">
+      <h2 id="categories">Shopcategorieën op HipobuyFind</h2>
+      <ul class="catgrid">
+        <li><a href="https://hipobuyfind.com/category-911-Shoes.html">Schoenen <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html">Hoodies en truien <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-913-T-Shirts.html">T-shirts <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-914-Jackets.html">Jassen <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html">Broeken en shorts <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-916-Headwear.html">Petten en mutsen <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-917-Sets.html">Sets <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html">Ondergoed <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-919-Jersey.html">Sportshirts <span aria-hidden="true">↗</span></a></li>
+        <li><a href="https://hipobuyfind.com/category-920-Accessories.html">Accessoires <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="shell content">
+    <section class="intro" aria-labelledby="intro">
+      <h2 id="intro">Van zoekterm naar product</h2>
+      <p>Met ‘JoyaGoo spreadsheet’ zoeken shoppers doorgaans naar een overzicht van productlinks. Kies hierboven een categorie op HipobuyFind. Bewaar bij een interessante vondst de oorspronkelijke verkoperslink en het artikelnummer, zodat je dezelfde uitvoering kunt terugvinden.</p>
+    </section>
+
+    <section aria-labelledby="guides">
+      <h2 id="guides">Vier korte koopgidsen</h2>
+      <div class="spread">
+        <article>
+          <h3>JoyaGoo productlinks controleren</h3>
+          <p>Noteer bij een productlink van Taobao, Weidian of 1688 het artikelnummer en de gekozen kleurvariant. Bekijk daarna de foto die bij die variant hoort. Controleer bij een kledingset of de boven- en onderkant samen worden geleverd. Zo merk je het eerder als een verkoper een advertentie vervangt of een optie wijzigt.</p>
+        </article>
+        <article>
+          <h3>JoyaGoo schoenmaten vergelijken</h3>
+          <p>Meet beide voeten met de sokken die je in de schoenen draagt. Vergelijk je langste voet met de maattabel van de verkoper en vraag bij twijfel om de lengte en breedte van de binnenzool. Voor een oversized hoodie of een jas helpt het om borstbreedte, mouwlengte en ruglengte naast die van een goed passend kledingstuk te leggen.</p>
+        </article>
+        <article>
+          <h3>JoyaGoo QC-foto’s beoordelen</h3>
+          <p>QC staat voor kwaliteitscontrole. Vraag bij sneakers om een foto van beide zolen en maatlabels. Controleer bij jassen de rits en stiknaden, en bij petten de verstelbare sluiting en de hoofdomtrek. Voor sieraden zijn de kettinglengte, het type sluiting en een close-up van de afwerking nuttig.</p>
+        </article>
+        <article>
+          <h3>JoyaGoo verzending vergelijken</h3>
+          <p>Vraag naar de doosafmetingen, het werkelijke gewicht en het volumegewicht. Vergelijk routes naar Nederland of België op tracking en verzekering. Controleer wanneer een retour of omruiling mogelijk is. Wil je de schoenendoos weglaten, vraag dan welke bescherming de schoenen in het pakket krijgen.</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="references">
+      <h2 id="references">Details om op te letten</h2>
+      <p class="note">De foto’s zijn beeldreferenties. Vergelijk bij je eigen vondst de plaats van een patroon op een jas, de vorm van een pet, de sluiting van een armband of de afwerking van een hanger.</p>
+      <div class="photo-set">
+        <figure>
+          <img src="https://www.louisvuitton.cn/images/is/image/lv/1/PP_VP_L/%E8%B7%AF%E6%98%93%E5%A8%81%E7%99%BB-monogram-%E5%8F%8C%E9%9D%A2%E6%9D%90%E8%B4%A8%E5%A4%B9%E5%85%8B-%E9%AB%98%E7%BA%A7%E6%88%90%E8%A1%A3--FUJA10XKP140_PM2_Front%20view.jpg?wid=480" alt="Beige Louis Vuitton Monogram-jas met opstaande kraag" width="480" height="480" loading="lazy" decoding="async">
+          <figcaption>Louis Vuitton · Monogram-jas</figcaption>
+        </figure>
+        <figure>
+          <img src="https://img.mytheresa.com/512/512/66/jpeg/catalog/product/88/P01129430.jpg" alt="Beige Gucci-pet van GG-canvas" width="512" height="512" loading="lazy" decoding="async">
+          <figcaption>Gucci · GG-canvaspet</figcaption>
+        </figure>
+        <figure>
+          <img src="https://www.crepslocker.com/cdn/shop/files/hermes-paris-clic-h-black-bracelet-h700001fv01pm-front.webp?v=1716898801&amp;width=480" alt="Zwarte Hermès Clic H-armband met goudkleurige H-sluiting" width="480" height="480" loading="lazy" decoding="async">
+          <figcaption>Hermès · Clic H-armband</figcaption>
+        </figure>
+        <figure>
+          <img src="https://assets.christiandior.com/is/image/diorprod/N2241WOMCYD03S_SBG_E01-2?%24r9x10_raw%24=&amp;crop=0%2C0%2C4000%2C5000&amp;wid=480" alt="Goudkleurige Dior Petit CD-ketting met een met kristallen bezette hanger" width="480" height="480" loading="lazy" decoding="async">
+          <figcaption>Dior · Petit CD-ketting</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section aria-labelledby="questions">
+      <h2 id="questions">Veelgestelde vragen</h2>
+      <div class="faq">
+        <details open>
+          <summary>Wat is een JoyaGoo spreadsheet?</summary>
+          <p>Een JoyaGoo spreadsheet is een overzicht waarin shoppers productlinks verzamelen en vergelijken. Deze onafhankelijke gids helpt je categorieën op HipobuyFind te vinden en details bij de aanbieder te controleren.</p>
+        </details>
+        <details>
+          <summary>Wat doe ik met een verlopen productlink?</summary>
+          <p>Zoek in dezelfde categorie op modelnaam of artikelnummer. Vergelijk daarna het model, de kleurvariant en de maatopties met je oorspronkelijke notitie.</p>
+        </details>
+        <details>
+          <summary>Wat kan ik zien op QC-foto’s?</summary>
+          <p>Duidelijke foto’s tonen zichtbare details zoals stiknaden, labels, sluitingen en beschadigingen. Voor de afmetingen heb je een meetfoto nodig. Vraag voor de herkomst om aankoopdocumentatie.</p>
+        </details>
+        <details>
+          <summary>Hoe schat ik de verzendkosten naar Nederland of België?</summary>
+          <p>Vraag het verpakte gewicht en de afmetingen op. Vergelijk voor jouw afleverland de verzendopties, tracking, verzekering en eventuele bijkomende kosten voordat je betaalt.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell">
+      <p>Onafhankelijke gids voor het vergelijken van productlinks.</p>
+      <a class="cta" href="https://www.hipobuyfind.com">Bekijk HipobuyFind</a>
+    </div>
+  </footer>
+</body>
+</html>
